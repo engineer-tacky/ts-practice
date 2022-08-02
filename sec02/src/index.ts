@@ -13,7 +13,15 @@
 // console.log(x);
 
 // 型の変換方法2
-let x = 123;
-let y = '456';
-x = Number(y);
-console.log(x);
+// let x = 123;
+// let y = '456';
+// x = Number(y);
+// console.log(x);
+
+// 計算
+let price:number = 12500;
+let withTax:number = price * 1.1;
+let withoutTax:number = price / 1.1;
+console.log('金額：' + price);
+console.log('税込：' + withTax);
+console.log('税抜：' + withoutTax);
